@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { SpinnerProvider } from '../providers/spinner/spinner';
+import { AlertProvider } from '../providers/alert/alert';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { SpinnerProvider } from '../providers/spinner/spinner';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    SpinnerProvider
+    SpinnerProvider,
+    AlertProvider
   ]
 })
 export class AppModule {}
