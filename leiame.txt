@@ -1,4 +1,4 @@
-1 - npm install -g ionic
+1 - npm install -g ionic e npm install -g cordova
 2 - ionic --version
 3 - ionic start NoFood blank --no-git
 4 - ionic serve
@@ -9,6 +9,12 @@
 7 - adicionar página inicial em component rootPage:any = 'LoginPage';
 8- Criação de provider= ionic g provider spinner
                         ionic g provider alert
+                        ionic g provider network
+                        ionic g provider http
+
+9 - instalar :
+$ ionic cordova plugin add cordova-plugin-network-information --save
+$ npm install --save @ionic-native/network
 
 
 Componentes VS:
