@@ -7,6 +7,7 @@
 6 - remover a home, remover de app.module
 7 - remover a home de app.component
 7 - adicionar página inicial em component rootPage:any = 'LoginPage';
+8- Criação de provider
 
 
 Componentes VS:
