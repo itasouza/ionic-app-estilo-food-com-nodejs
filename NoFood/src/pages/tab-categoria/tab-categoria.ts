@@ -1,3 +1,4 @@
+import { CategoriaPage } from './../categoria/categoria';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, App } from 'ionic-angular';
 
@@ -18,7 +19,7 @@ export class TabCategoriaPage {
   }
 
   ionViewDidLoad() {
-   this.app.getRootNav().setRoot(CategoriaPage);
+  //this.app.getRootNav().setRoot(CategoriaPage);
   }
 
 }
