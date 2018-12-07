@@ -1,17 +1,45 @@
 
-<ion-header>
+<ion-content no-padding>
 
-  <ion-navbar>
-    <ion-title>login</ion-title>
-  </ion-navbar>
+ <div class="red">
 
-</ion-header>
+      <div class="logo">
+          <img src="/assets/imagens/icon-branco.png" alt="">
+          <span>NoFood</span>
+      </div>
 
+      <ion-list  no-lines>
+          <ion-item>
+          <ion-label ></ion-label>
+              <ion-input type="text" placeholder="Login"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-input type="password" placeholder="Senha"></ion-input>
+          </ion-item>
+      </ion-list>
 
-<ion-content padding>
+        <ion-grid>
+          <ion-row>
+            <button ion-button color="secondary" block round (click)="abrirCategoria()" >
+              Efetuar login
+            </button>
+          </ion-row>
+          <ion-row>
+            <button ion-button block outline color="secondary" round>
+              Cadastrar-se
+            </button>
+          </ion-row>
+        </ion-grid>
+
+      <ion-grid>
+        <ion-row>
+            <button ion-button clear block color="light">
+              Administrar Cadastros
+            </button>
+          </ion-row>
+      </ion-grid>
+      
+ </div>
  
-  <button ion-button block (click)="abrirCategoria()" >
-    Efetuar login
-  </button>
 
 </ion-content>

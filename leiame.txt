@@ -3,6 +3,8 @@
 3 - ionic start NoFood blank --no-git
 4 - ionic serve
 
+* - na pasta do projeto, quando baixar um projeto sem node_modules = npm install 
+
 5 - ionic g page <nome página> (criação de páginas)
 6 - remover a home, remover de app.module
 7 - remover a home de app.component
@@ -23,8 +25,7 @@ Auto Import
 Path Autocomplete
 ejs Snippets
 Ionic Preview
-Ionic v4 Snippets
-Ionic 2 snippets
+Ionic 3 snippets
 
 
 
